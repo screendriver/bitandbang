@@ -1,16 +1,16 @@
 {
-  "name": "bitandbang",
+  "name": "screendriver",
   "version": "1.4.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Christian Rackerseder (@screendriver)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "screendriver": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/screendriver/screendriver.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://www.echooff.dev",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Christian Rackerseder <git@echooff.de>",
   "license": "MIT",
   "files": [
     "bin/card.js",
